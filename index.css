@@ -30,7 +30,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 position:fixed;
-color: white;
+/* color: white; */
 /* margin-top: 10px; */
 z-index: 1;
 
@@ -53,6 +53,9 @@ z-index: 1;
   text-decoration: none;
   font-weight: 700;
   color: white;
+}
+body a:hover{
+    color: orangered;
 }
 .nav-rt{
     display: flex;
@@ -118,6 +121,9 @@ z-index: 1;
     /* background-color: beige; */
     flex-direction: column;
     
+}
+body i:hover{
+    color: orangered;
 }
 .footer .slides{
     height: 40%;
